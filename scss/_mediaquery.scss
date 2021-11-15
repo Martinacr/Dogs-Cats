@@ -1,5 +1,9 @@
 @media only screen and (max-width: 320px) {
-.main{
+.header{
+    
+    max-width: 100%;
+}
+    .main{
         margin: 0px;
         padding: 0px;
         
@@ -19,8 +23,7 @@
             text-align: center;
         }
         &__productos{
-            margin: 0;
-            
+            width: 90%;
         }
         &__fotoProducto{
             width: 80%;
@@ -52,18 +55,24 @@
         align-items: center;
         margin-top: 10px;
     }
-    #form{
-        width: 88%;
-    }
-    textarea{
-        width: 280px;
-    }
-    #submit{
-        width: 280px;
+    .formcontact{
+        width: 90%;
+        margin-left: 5%;
     }
     
-    .formcontact{
-        width: 280px;
+    #form{
+        width: 90%;
+        margin-left: 5%;
+    }
+    
+    #message{
+        width: 90%; 
+        margin-left: 5%;
+    }
+    
+    #submit{
+        width: 90%;
+        margin-left: 5%;
     }
 .footer{
         &__info{
@@ -106,7 +115,25 @@
                 padding-left: 50px;
         }
         }
-    
+        .formcontact{
+            width: 90%;
+            margin-left: 5%;
+        }
+        
+        #form{
+            width: 90%;
+            margin-left: 5%;
+        }
+        
+        #message{
+            width: 90%; 
+            margin-left: 5%;
+        }
+        
+        #submit{
+            width: 90%;
+            margin-left: 5%;
+        }
     }
 }
 

@@ -318,6 +318,8 @@ textarea:hover {
   opacity: 0.8; }
 
 @media only screen and (max-width: 320px) {
+  .header {
+    max-width: 100%; }
   .main {
     margin: 0px;
     padding: 0px; }
@@ -333,7 +335,7 @@ textarea:hover {
       font-size: 23px;
       text-align: center; }
     .main__productos {
-      margin: 0; }
+      width: 90%; }
     .main__fotoProducto {
       width: 80%;
       height: 30%;
@@ -355,14 +357,18 @@ textarea:hover {
     margin-left: 30px;
     align-items: center;
     margin-top: 10px; }
-  #form {
-    width: 88%; }
-  textarea {
-    width: 280px; }
-  #submit {
-    width: 280px; }
   .formcontact {
-    width: 280px; }
+    width: 90%;
+    margin-left: 5%; }
+  #form {
+    width: 90%;
+    margin-left: 5%; }
+  #message {
+    width: 90%;
+    margin-left: 5%; }
+  #submit {
+    width: 90%;
+    margin-left: 5%; }
   .footer__info {
     margin: 0px;
     padding-right: 50px;
@@ -388,7 +394,19 @@ textarea:hover {
     height: 90%;
     margin: 0px;
     padding-right: 50px;
-    padding-left: 50px; } }
+    padding-left: 50px; }
+  .main .formcontact {
+    width: 90%;
+    margin-left: 5%; }
+  .main #form {
+    width: 90%;
+    margin-left: 5%; }
+  .main #message {
+    width: 90%;
+    margin-left: 5%; }
+  .main #submit {
+    width: 90%;
+    margin-left: 5%; } }
 
 @media only screen and (max-width: 768px) {
   .main .carousel {

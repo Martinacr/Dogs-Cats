@@ -1,0 +1,30 @@
+.main{
+    margin-top: 40px;
+    margin-bottom: 60px;
+    background-color: white;
+
+
+&__tituloNosotros{
+    color: #cbb098;
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+}  
+
+&__parrafoNosotros{
+    color:#c5bbcb;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+&__logoNosotros{
+text-align: center;
+}
+}

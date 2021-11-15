@@ -1,0 +1,137 @@
+@media only screen and (max-width: 320px) {
+.main{
+        margin: 0px;
+        padding: 0px;
+        
+        .carousel{
+            width: auto;
+        }
+        &__texto{
+            max-width: 100%;
+            height: 100%;
+            margin: 0px;
+            
+        }
+        &__tituloMarcas{
+            margin: 0px;
+            width: 100%;
+            font-size: 23px;
+            text-align: center;
+        }
+        &__productos{
+            margin: 0;
+            
+        }
+        &__fotoProducto{
+            width: 80%;
+            height: 30%;
+            margin: 0px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        &__h2{
+            margin-right: 5px;
+            font-size: 20px;
+            text-align: center;
+            margin-right: 20px;
+        }
+        
+        &__tituloQuienes{
+            font-size: 48px;
+        }
+        
+        
+    }
+
+    .contacto{
+        font-size: 20px;
+        width: 80%;
+        margin: 0;
+        margin-left: 30px;
+        align-items: center;
+        margin-top: 10px;
+    }
+    #form{
+        width: 88%;
+    }
+    textarea{
+        width: 280px;
+    }
+    #submit{
+        width: 280px;
+    }
+    
+    .formcontact{
+        width: 280px;
+    }
+.footer{
+        &__info{
+            margin: 0px;
+            padding-right: 50px;
+            padding-left: 50px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+    .main{
+        .carousel{
+            width: auto;
+        }
+        &__texto{
+            max-width: 100%;
+            height: 100%;
+            margin: 0px;
+        }
+        &__tituloMarca{
+            font-size: 25px;
+        }
+        &__logos{
+            margin-left: 20px;
+        }
+        &__productos{
+        margin: 0;
+        }
+        &__fotoProducto{
+            margin-left: 150px;
+        }
+        .footer{
+            &__info{
+                width: 100%;
+                height: 90%;
+                margin: 0px;
+                padding-right: 50px;
+                padding-left: 50px;
+        }
+        }
+    
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main{
+        .carousel{
+            width: auto;
+        }
+        &__texto{
+            max-width: 100%;
+            height: 100%;
+            margin: 0px;
+        }
+        &__logos{
+            display: flex;
+            margin-left: 24%;
+        }
+        &__fotoProducto{
+            margin-left: 50px;
+        }
+
+        #form{
+            margin-left: 5px;
+        }
+    }
+}
+
+

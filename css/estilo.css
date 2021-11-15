@@ -1,0 +1,406 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.header {
+  padding-bottom: 30px; }
+  .header__titular {
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    color: #cbb098;
+    text-align: center;
+    margin-top: 10px; }
+  .header__nav li a {
+    font-family: 'Spartan', sans-serif;
+    font-size: 20px; }
+  .header__nav ul li a:hover {
+    background-color: #efd3ba;
+    color: #ffff;
+    font-size: 20px;
+    border-radius: 10px 100px / 120px; }
+  .header__nav-link {
+    color: #895246;
+    text-decoration: none;
+    padding: 10px; }
+  .header .nav-link a:hover {
+    background-color: #efd3ba;
+    color: #ffff; }
+
+.main .carousel {
+  width: 84.5%; }
+
+.main__texto {
+  background-color: #f4c996;
+  font-family: 'spartan', sans-serif;
+  color: #895246;
+  text-align: center;
+  font-size: 19px;
+  letter-spacing: 2px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-left: 118px;
+  margin-right: 118px; }
+
+.main__tituloMarcas {
+  background-color: #cbb098;
+  font-family: 'Spartan', sans-serif;
+  color: #ffff;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.6;
+  height: 100px;
+  padding-top: 30px;
+  margin-top: 40px; }
+
+.main__logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.footer__info {
+  background-color: #e4c6b0;
+  font-family: 'Spartan', sans-serif;
+  color: #ffff;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 150px;
+  padding-right: 150px; }
+
+.footer__logo {
+  display: inline-block;
+  padding: 5px; }
+
+.header__seccion {
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+  color: #895246;
+  background-color: #f4c996;
+  letter-spacing: 2px;
+  font-size: 25px;
+  padding: 50px;
+  margin-top: 50px; }
+
+.main__productos {
+  margin-left: 80px;
+  margin-right: 50px; }
+
+.main__fotoProducto {
+  display: inline-block;
+  padding: 50px;
+  border: 1px solid #ffff;
+  box-shadow: 7px 7px 15px #9b9896;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  margin: 15px; }
+
+.main__fotoProducto :hover {
+  opacity: 5;
+  transform: scale(1.1, 1.1); }
+
+.main__nombreProducto {
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+  font-size: 16px;
+  margin-top: 5px; }
+
+.main__precioProducto {
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+  font: 14px;
+  margin-top: 5px; }
+
+.main__h2 {
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+  color: #ffff;
+  letter-spacing: 2px;
+  margin: 40px;
+  background-color: #cbb098;
+  padding: 40px;
+  font-size: 25px; }
+
+.footer {
+  width: 100%;
+  height: auto;
+  position: absolute; }
+  .footer__info {
+    background-color: #e4c6b0;
+    font-family: 'Spartan', sans-serif;
+    color: #ffff;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px; }
+  .footer__logo {
+    display: inline-block;
+    padding: 5px; }
+
+.header__seccion {
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+  color: #895246;
+  background-color: #f4c996;
+  letter-spacing: 2px;
+  font-size: 25px;
+  padding: 50px;
+  margin-top: 50px; }
+
+.main__productos {
+  margin-left: 80px;
+  margin-right: 50px; }
+
+.main__fotoProducto {
+  display: inline-block;
+  padding: 50px;
+  border: 1px solid #ffff;
+  box-shadow: 7px 7px 15px #9b9896;
+  width: 300px;
+  height: 400px;
+  text-align: center;
+  margin: 15px; }
+
+.main__fotoProducto :hover {
+  opacity: 5;
+  transform: scale(1.1, 1.1); }
+
+.main__nombreProducto {
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+  font-size: 16px;
+  margin-top: 5px; }
+
+.main__precioProducto {
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+  font: 14px;
+  margin-top: 5px; }
+
+.main__h2 {
+  text-align: center;
+  font-family: 'Spartan', sans-serif;
+  color: #ffff;
+  letter-spacing: 2px;
+  margin: 40px;
+  background-color: #cbb098;
+  padding: 40px;
+  font-size: 25px; }
+
+.footer {
+  width: 100%;
+  height: auto;
+  position: absolute; }
+  .footer__info {
+    background-color: #e4c6b0;
+    font-family: 'Spartan', sans-serif;
+    color: #ffff;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px; }
+  .footer__logo {
+    display: inline-block;
+    padding: 5px; }
+
+.main {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  background-color: white; }
+  .main__tituloNosotros {
+    color: #cbb098;
+    font-family: 'Caveat', cursive;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px; }
+  .main__parrafoNosotros {
+    color: #c5bbcb;
+    font-family: 'Spartan', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 40px;
+    padding-top: 40px; }
+  .main__logoNosotros {
+    text-align: center; }
+
+.contacto {
+  font-family: 'Spartan', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  background-color: #cbb098;
+  color: white;
+  padding: 30px;
+  margin-left: 50px;
+  margin-right: 50px; }
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto; }
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 110px;
+  max-height: 110px;
+  padding: 15px;
+  font-weight: bold;
+  background: transparent;
+  outline: none;
+  border: transparent;
+  color: #726659;
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.875em;
+  border: solid 1px #ac7264;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out; }
+
+textarea:hover {
+  background: #cbb098;
+  color: white; }
+
+.mt0 {
+  margin-top: 0px !important; }
+
+#submit {
+  width: 470px;
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  font-family: 'Spartan', sans-serif;
+  font-size: 0.875em;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  border: solid 1px;
+  border-top: none;
+  background-color: #cbb098; }
+
+#message {
+  font-family: 'Spartan', sans-serif;
+  color: 'Spartan', sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 0.875em; }
+
+.formcontact {
+  font-family: 'Spartan', sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  background: transparent;
+  outline: none;
+  color: #5c5c5c;
+  border: solid 1px #cbb098;
+  border-bottom: none;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out; }
+
+.btn__form {
+  opacity: 2; }
+
+.btn__form:hover {
+  opacity: 0.8; }
+
+@media only screen and (max-width: 320px) {
+  .main {
+    margin: 0px;
+    padding: 0px; }
+    .main .carousel {
+      width: auto; }
+    .main__texto {
+      max-width: 100%;
+      height: 100%;
+      margin: 0px; }
+    .main__tituloMarcas {
+      margin: 0px;
+      width: 100%;
+      font-size: 23px;
+      text-align: center; }
+    .main__productos {
+      margin: 0; }
+    .main__fotoProducto {
+      width: 80%;
+      height: 30%;
+      margin: 0px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      text-align: center; }
+    .main__h2 {
+      margin-right: 5px;
+      font-size: 20px;
+      text-align: center;
+      margin-right: 20px; }
+    .main__tituloQuienes {
+      font-size: 48px; }
+  .contacto {
+    font-size: 20px;
+    width: 80%;
+    margin: 0;
+    margin-left: 30px;
+    align-items: center;
+    margin-top: 10px; }
+  #form {
+    width: 88%; }
+  textarea {
+    width: 280px; }
+  #submit {
+    width: 280px; }
+  .formcontact {
+    width: 280px; }
+  .footer__info {
+    margin: 0px;
+    padding-right: 50px;
+    padding-left: 50px; } }
+
+@media only screen and (max-width: 480px) {
+  .main .carousel {
+    width: auto; }
+  .main__texto {
+    max-width: 100%;
+    height: 100%;
+    margin: 0px; }
+  .main__tituloMarca {
+    font-size: 25px; }
+  .main__logos {
+    margin-left: 20px; }
+  .main__productos {
+    margin: 0; }
+  .main__fotoProducto {
+    margin-left: 150px; }
+  .main .footer__info {
+    width: 100%;
+    height: 90%;
+    margin: 0px;
+    padding-right: 50px;
+    padding-left: 50px; } }
+
+@media only screen and (max-width: 768px) {
+  .main .carousel {
+    width: auto; }
+  .main__texto {
+    max-width: 100%;
+    height: 100%;
+    margin: 0px; }
+  .main__logos {
+    display: flex;
+    margin-left: 24%; }
+  .main__fotoProducto {
+    margin-left: 50px; }
+  .main #form {
+    margin-left: 5px; } }
